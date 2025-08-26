@@ -101,9 +101,6 @@ public class YouCrawler {
 
 		for (Video video : videos) {
 			builder.append("<tr>");
-//			builder.append("<td id=\"b" + i + "\"> <button onclick=\"myFunction(\'" + i + "\')\">");
-//			builder.append(video.getName());
-//			builder.append("</button> </td>");
 			builder.append("<td>" + video.getName() + "</td>");
 			builder.append("<td>" + video.getPubTime() + "</td>");
 			builder.append("<td id=\"" + i + "\"><a href=");
